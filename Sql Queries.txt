@@ -1,0 +1,11 @@
+First Table 
+
+CREATE TABLE IF NOT EXISTS crop_data (
+    country VARCHAR(100),
+    year INT,
+    area_harvested FLOAT,
+    yield FLOAT,
+    production FLOAT,
+    stocks FLOAT,
+    PRIMARY KEY (country, year)
+);
