@@ -46,3 +46,4 @@ print(data_to_insert[:5])
 dbwrite(insert_query,data_to_insert)
 
 print("Data inserted successfully!")
+

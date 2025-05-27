@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 First Table 
 
 CREATE TABLE IF NOT EXISTS crop_data (
@@ -8,4 +9,16 @@ CREATE TABLE IF NOT EXISTS crop_data (
     production FLOAT,
     stocks FLOAT,
     PRIMARY KEY (country, year)
+=======
+First Table 
+
+CREATE TABLE IF NOT EXISTS crop_data (
+    country VARCHAR(100),
+    year INT,
+    area_harvested FLOAT,
+    yield FLOAT,
+    production FLOAT,
+    stocks FLOAT,
+    PRIMARY KEY (country, year)
+>>>>>>> 0f4b630a91032962008a98b5464d47175e0542c9
 );

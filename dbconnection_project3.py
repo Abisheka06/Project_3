@@ -65,3 +65,4 @@ def dbreadWithColumnNames(query):
     cursor.close()
     conn.close()
     return rows,column_names
+
